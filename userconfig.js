@@ -23,10 +23,10 @@ const default_config = {
           name: "bookmarks",
           links: [
             {
-              name: "Forocoches",
-              url: "https://forocoches.com/foro/",
-              icon: "IconDashboard",
-              icon_color: palette.green,
+              name: "Enfermero Noruega",
+              url: "https://www.enfermeronoruega.com",
+              icon: "brand-wordpress",
+              icon_color: palette.red,
             },
             {
               name: "musicForProgramming();",
@@ -34,34 +34,40 @@ const default_config = {
               icon: "binary-tree",
               icon_color: palette.peach,
             },
+            {
+              name: "Cookbook",
+              url: "https://app.cookbookmanager.com",
+              icon: "tools-kitchen",
+              icon_color: palette.blue,
+            },
           ],
         },
         {
           name: "workspace",
           links: [
             {
-              name: "gmail",
-              url: "https://mail.google.com",
-              icon: "brand-gmail",
-              icon_color: palette.green,
-            },
-            {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
-              icon_color: palette.red,
-            },
-            {
-              name: "drive",
-              url: "https://drive.google.com/drive/home",
-              icon: "brand-google-drive",
+              name: "LinkedIn",
+              url: "https://www.linkedin.com/feed/",
+              icon: "brand-linkedin",
               icon_color: palette.blue,
+            },
+            {
+              name: "Facebook",
+              url: "https://www.facebook.com",
+              icon: "brand-facebook",
+              icon_color: palette.blue,
+            },
+            {
+              name: "Finn",
+              url: "https://www.finn.no",
+              icon: "basket-dollar",
+              icon_color: palette.blue,
+            },
+            {
+              name: "NAV",
+              url: "https://login.idporten.no/authorize/selector",
+              icon: "briefcase",
+              icon_color: palette.red,
             },
           ],
         },
