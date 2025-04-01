@@ -1,10 +1,10 @@
 // latte / frappe / macchiato / mocha
-const palette = macchiato;
+const palette = mocha;
 
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Trondheim",
     scale: "C",
   },
   clock: {
@@ -23,9 +23,9 @@ const default_config = {
           name: "bookmarks",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
+              name: "Forocoches",
+              url: "https://forocoches.com/foro/",
+              icon: "IconDashboard",
               icon_color: palette.green,
             },
             {
