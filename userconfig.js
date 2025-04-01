@@ -16,99 +16,6 @@ const default_config = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
-      background_url: "src/img/banners/cbg-09.gif",
-      categories: [
-        {
-          name: "bookmarks",
-          links: [
-            {
-              name: "Enfermero Noruega",
-              url: "https://www.enfermeronoruega.com",
-              icon: "brand-wordpress",
-              icon_color: palette.red,
-            },
-            {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
-              icon_color: palette.peach,
-            },
-            {
-              name: "Cookbook",
-              url: "https://app.cookbookmanager.com",
-              icon: "tools-kitchen",
-              icon_color: palette.blue,
-            },
-          ],
-        },
-        {
-          name: "workspace",
-          links: [
-            {
-              name: "LinkedIn",
-              url: "https://www.linkedin.com/feed/",
-              icon: "brand-linkedin",
-              icon_color: palette.blue,
-            },
-            {
-              name: "Facebook",
-              url: "https://www.facebook.com",
-              icon: "brand-facebook",
-              icon_color: palette.blue,
-            },
-            {
-              name: "Finn",
-              url: "https://www.finn.no",
-              icon: "basket-dollar",
-              icon_color: palette.blue,
-            },
-            {
-              name: "NAV",
-              url: "https://login.idporten.no/authorize/selector",
-              icon: "briefcase",
-              icon_color: palette.red,
-            },
-          ],
-        },
-        {
-          name: "media",
-          links: [
-            {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
-              icon_color: palette.green,
-            },
-            {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
-              icon_color: palette.red,
-            },
-            {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
-              icon_color: palette.blue,
-            },
-            {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
-              icon_color: palette.mauve,
-            },
-          ],
-        },
-      ],
-    },
-    {
       name: "dev",
       background_url: "src/img/banners/cbg-07.gif",
       categories: [
@@ -122,10 +29,10 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
-              icon: "circle-triangle",
-              icon_color: palette.peach,
+              name: "Regex101",
+              url: "https://regex101.com",
+              icon: "regex",
+              icon_color: palette.blue,
             },
             {
               name: "stackoverflow",
@@ -133,63 +40,63 @@ const default_config = {
               icon: "brand-stackoverflow",
               icon_color: palette.red,
             },
+            {
+              name: "Reddit",
+              url: "https://www.reddit.com",
+              icon: "brand-reddit",
+              icon_color: palette.red,
+            },
           ],
         },
         {
-          name: "challenges",
+          name: "Resources",
           links: [
             {
-              name: "kaggle",
-              url: "https://www.kaggle.com",
-              icon: "brain",
-              icon_color: palette.green,
-            },
-            {
-              name: "leetcode",
-              url: "https://leetcode.com",
-              icon: "code-plus",
+              name: "Udemy",
+              url: "https://www.udemy.com",
+              icon: "notebook",
               icon_color: palette.peach,
             },
             {
-              name: "exercism",
-              url: "https://exercism.org",
-              icon: "code-minus",
+              name: "UV",
+              url: "https://docs.astral.sh/uv/",
+              icon: "uv-index",
+              icon_color: palette.peach,
+            },
+            {
+              name: "Crontab Guru",
+              url: "https://crontab.guru",
+              icon: "brackets-contain-start",
               icon_color: palette.red,
             },
             {
-              name: "aoc",
-              url: "https://adventofcode.com",
-              icon: "brand-linktree",
+              name: "Roadmaps",
+              url: "https://roadmap.sh/roadmaps",
+              icon: "map",
               icon_color: palette.blue,
             },
           ],
         },
         {
-          name: "resources",
+          name: "Learn",
           links: [
             {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
+              name: "MOOC",
+              url: "https://www.mooc.fi/en/",
+              icon: "currency-shekel",
               icon_color: palette.green,
             },
             {
-              name: "hackernews",
-              url: "https://news.ycombinator.com",
-              icon: "brand-redhat",
-              icon_color: palette.peach,
-            },
-            {
-              name: "uber engineering",
-              url: "https://www.uber.com/en-GB/blog/london/engineering",
-              icon: "brand-uber",
-              icon_color: palette.red,
-            },
-            {
-              name: "netflix tech blog",
-              url: "https://netflixtechblog.com",
-              icon: "brand-netflix",
+              name: "LazyVim Book",
+              url: "https://lazyvim-ambitious-devs.phillips.codes/course/chapter-1/",
+              icon: "book",
               icon_color: palette.blue,
+            },
+            {
+              name: "PlantUML",
+              url: "https://plantuml.com/en-dark/",
+              icon: "chart-grid-dots",
+              icon_color: palette.red,
             },
           ],
         },
