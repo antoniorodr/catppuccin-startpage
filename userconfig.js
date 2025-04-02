@@ -176,7 +176,7 @@ const default_config = {
             {
               name: "Finn",
               url: "www.finn.no",
-              icon: "tag-starred",
+              icon: "tag",
               icon_color: palette.blue,
             },
           ],
