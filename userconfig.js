@@ -52,10 +52,10 @@ const default_config = {
           name: "Resources",
           links: [
             {
-              name: "Udemy",
-              url: "https://www.udemy.com",
-              icon: "notebook",
-              icon_color: palette.peach,
+              name: "ChatGPT",
+              url: "https://chatgpt.com",
+              icon: "message-chatbot",
+              icon_color: palette.green,
             },
             {
               name: "UV",
@@ -80,6 +80,12 @@ const default_config = {
         {
           name: "Learn",
           links: [
+            {
+              name: "Udemy",
+              url: "https://www.udemy.com",
+              icon: "notebook",
+              icon_color: palette.peach,
+            },
             {
               name: "MOOC",
               url: "https://www.mooc.fi/en/",
