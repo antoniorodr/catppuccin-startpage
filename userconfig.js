@@ -35,8 +35,8 @@ const default_config = {
               icon_color: palette.blue,
             },
             {
-              name: "stackoverflow",
-              url: "https://stackoverflow.com",
+              name: "HackerNews",
+              url: "https://news.ycombinator.com",
               icon: "brand-stackoverflow",
               icon_color: palette.red,
             },
