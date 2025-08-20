@@ -99,9 +99,9 @@ const default_config = {
               icon_color: palette.blue,
             },
             {
-              name: "PlantUML",
-              url: "https://plantuml.com/en-dark/",
-              icon: "chart-grid-dots",
+              name: "Mermaid",
+              url: "https://mermaid.js.org",
+              icon: "fish-christianity",
               icon_color: palette.red,
             },
           ],
